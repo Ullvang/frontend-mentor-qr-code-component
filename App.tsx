@@ -70,7 +70,7 @@ export default function App() {
 }
 
 const paddingContainer = 24;
-const padding = paddingContainer * 2 + 16 * 2;
+let padding = paddingContainer * 2 + 16 * 2;
 const win = Dimensions.get("window");
 
 const styles = StyleSheet.create({
@@ -86,11 +86,11 @@ const styles = StyleSheet.create({
   },
   card: {
     backgroundColor: "hsl(0, 0%, 100%)",
+    marginVertical: 64,
     padding: 16,
     paddingBottom: 32,
     borderRadius: 16,
     maxWidth: 375 - paddingContainer * 2,
-    minHeight: 500,
   },
   cardText: {
     paddingHorizontal: 16,
@@ -106,8 +106,8 @@ const styles = StyleSheet.create({
     fontFamily: "Outfit_400Regular",
   },
   imageQRCode: {
-    width: win.width - padding,
-    height: win.width - padding,
+    width: win.width < 375 ? win.width : win.width - padding,
+    height: win.height < 375 ? win.width : win.width - padding,
     maxWidth: 375 - padding,
     maxHeight: 375 - padding,
     borderRadius: 8,
