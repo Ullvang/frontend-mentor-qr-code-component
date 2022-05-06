@@ -5,7 +5,9 @@ The site was developed as mobile first.
 
 # Frontend Mentor - QR code component
 
-This is a solution to the ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+I tried to recreate this image as a website and app:
+![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 See more about this challange at [https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 
 ## Author
